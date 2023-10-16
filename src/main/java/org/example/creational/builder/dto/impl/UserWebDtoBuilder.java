@@ -1,13 +1,14 @@
 package org.example.creational.builder.dto.impl;
 
+import org.example.creational.builder.dto.UserDto;
+import org.example.creational.builder.dto.UserDtoBuilder;
 import org.example.creational.builder.entity.Address;
 
 import java.time.LocalDate;
 import java.time.Period;
-import java.util.Date;
 
 //the concerete builder
-public class UserWebDtoBuilder implements UserDtoBuilder{
+public class UserWebDtoBuilder implements UserDtoBuilder {
 
     private String firstName;
     private String lastName;

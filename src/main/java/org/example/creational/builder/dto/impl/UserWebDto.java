@@ -1,7 +1,9 @@
 package org.example.creational.builder.dto.impl;
 
+import org.example.creational.builder.dto.UserDto;
+
 //product
-public class UserWebDto implements UserDto{
+public class UserWebDto implements UserDto {
     private String name;
     private String address;
     private String age;

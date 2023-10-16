@@ -1,4 +1,4 @@
-package org.example.creational.builder.dto.impl;
+package org.example.creational.builder.dto;
 
 public interface UserDto {
     String getName();
