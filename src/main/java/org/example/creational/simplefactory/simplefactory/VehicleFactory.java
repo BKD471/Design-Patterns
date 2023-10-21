@@ -22,7 +22,7 @@ public class VehicleFactory {
         }
     }
 
-    public  static Engine getEngine(String type){
+    private   static Engine getEngine(String type){
         if(StringUtils.isEmpty(type)) return  null;
         switch (type){
             case "FIGHTER":return  new JetEngine("TurboFan", FuelType.AVIATION_FUEL

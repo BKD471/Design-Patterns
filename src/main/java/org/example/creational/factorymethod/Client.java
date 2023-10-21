@@ -7,14 +7,12 @@ import org.example.creational.factorymethod.lambos.Lamborghini;
 
 public class Client {
     public static void main(String[] args) {
-        //Aventador
-        LamboCreator lamboCreator=new AventadorCreator();
-        Lamborghini lamborghini=lamboCreator.orderLambo();
-        System.out.println(lamborghini);
+       display(new AventadorCreator());
+       display(new RevueltoCreator());
+    }
 
-        //
-        LamboCreator lamboCreator1=new RevueltoCreator();
-        Lamborghini lamborghini1=lamboCreator1.orderLambo();
-        System.out.println(lamborghini1);
+    private static void display(LamboCreator lamboCreator){
+        Lamborghini lamborghini= lamboCreator.orderLambo();
+        System.out.println(lamborghini);
     }
 }
