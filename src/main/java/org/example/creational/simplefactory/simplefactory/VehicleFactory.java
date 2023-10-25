@@ -18,7 +18,7 @@ public class VehicleFactory {
             case "FIGHTER": return new F35LightningB("b12",engine, WingType.SWEPT_BACK,
                     118,50000,8);
             case "CAR": return new RangeRover("classic",engine,TransmissionType.AUTOMATIC,"4X4");
-            default:return null;
+            default:throw new RuntimeException("Wrong request type for Vehicle");
         }
     }
 
@@ -28,7 +28,7 @@ public class VehicleFactory {
             case "FIGHTER":return  new JetEngine("TurboFan", FuelType.AVIATION_FUEL
                     , SeatType.TWIN,150, EngineType.TWIN_ENGINE);
             case "CAR": return new CarEngine("Classic",FuelType.PETROL,SeatType.FOUR,6,170,600, TransmissionType.AUTOMATIC);
-            default:return null;
+            default:throw new RuntimeException("Wrong request type for Engine");
         }
     }
 }
