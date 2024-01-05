@@ -3,3 +3,15 @@ Bridge pattern decouples an abstraction from its implementation
 so that two can vary independently.
 
 
+Diff between Strategy & Bridge
+
+Strategy purpose was to dynamically change the behaviour of a class
+at runtime without tight coupling the dependency
+by encapsulation algo to ts specific class
+
+
+Bridges purpose is to separate impl and abstraction
+and make them grow independently
+
+if in future we have too many  Impl classes with different processes,
+it must not affect the abstraction classes.

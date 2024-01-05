@@ -1,0 +1,7 @@
+to introduce a intermdeate filter between client and the target object
+use proxy
+
+it can
+           1) Access restriction              (restrictions to db access)
+           2) Do Pre & Post Processing (to keep track of employee in and out time from card swiping details)
+           3) In Caching server, to know whether an object is present or not
