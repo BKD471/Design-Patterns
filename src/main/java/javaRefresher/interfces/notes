@@ -1,0 +1,9 @@
+it helps two systems to interact without even know the details of other
+
+Modifiers: public & default
+
+methods: public,static,default,private,private static
+
+fileds --> public static final....they are constants by default
+
+ nested interfaces can be private inside class

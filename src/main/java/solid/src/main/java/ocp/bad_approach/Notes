@@ -1,0 +1,2 @@
+To add new DisplayType , we have to make changes in parent class Display
+to extend new features , we have to modify the base classes

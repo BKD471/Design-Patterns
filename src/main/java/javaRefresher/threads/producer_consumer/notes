@@ -1,0 +1,18 @@
+
+why these  are deprecated
+
+stop():    terminates thread abruptly,No lock release,no cleanup happens
+suspend() :put thread on hold temporarily.No lock is released too.
+resume(): used to resume the execution of suspended thread
+
+this lead to deadlock
+
+
+Join() ========>
+when JOIN methods is invoked on a thread object,
+current thread will be blocked and waits for the specific
+thread to finish
+
+It is helpful when we want to coordinate between threads or
+to ensure we complete certain task
+before moving ahead

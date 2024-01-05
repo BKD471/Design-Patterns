@@ -1,0 +1,14 @@
+annotations are metadata for  source code.
+They provide additional information about the program to the compiler but are not part of the program itself.
+These annotations do not affect the execution of the compiled program
+but can be used at runtime to execute certain logic if needed
+target-> classes,methods,interface,fields,parameters
+
+types
+
+a) defined->
+
+             1) used on annotations(meta annotations):@Target, @Retention,@Documented,@Inherited,@Repeatable
+             2) used on java code(CLases,methopds):@Deprecated,@Override,@SuppreseWarnings,@FunctionalInterface,@SafeVarargs
+
+b) custom/uder defined

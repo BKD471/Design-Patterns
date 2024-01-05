@@ -1,0 +1,6 @@
+supress Heap pollution warning
+used over methods and constr whic has variable arg as params
+methods must be static or final( methods cannot be overriden)
+it can also be used on rpivate methods
+
+Heap pollution: Obj of one type(String) storing the reference of another type (Integer)

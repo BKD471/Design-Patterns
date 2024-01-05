@@ -1,0 +1,5 @@
+Here UserController only accepts User as request from Client
+The validation & storage logic is delegated to UserValidation and UserRepo
+
+if something changes in validation logic or storage logic,
+we dont need to change anything in UserCOntroller

@@ -1,0 +1,5 @@
+lsv-->we should be able to substitute base class object with
+the child class object and it must not alter/break the progm
+
+Its a test to check ,whether your inheritance is correct or not
+it will break if the inheritance is incorrect

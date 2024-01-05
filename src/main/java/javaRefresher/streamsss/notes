@@ -1,0 +1,11 @@
+
+step1   create streams from data source(collections)
+step2  intermediate ops filter() sorted() map() distinct()
+       these transforms streams into another strems and more ops can be performed
+
+step3  terminal ops  like collect() reduce() count() are used
+       these ops triggers processing of strems which produces the o/p
+       after these ops no ops can be performed
+
+       intermediate ops are lazy coz the stream runs when
+       terminal operations is invoked

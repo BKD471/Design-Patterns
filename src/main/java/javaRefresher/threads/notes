@@ -1,0 +1,41 @@
+process--->executing program. its has its own resources like memory,threads.
+           Os allocates these resources whne its getting created.
+           two process never share their own resources and they run parallely
+program--->sets of instructions
+
+
+Thread---> smallest unit of work
+smallest seq of instructions that can be executed by cpu independently
+
+notes:  java code is compiled to bytecode,
+while process is created by java MainClasName
+with each process a new jvm instance will be created that loads this bytecode
+and executes the process,
+this process has its own memory and threads
+and is isolated from other process.
+Initially a process is excuted by "main" thread which is assigned by jvm
+
+
+Code Segment: contains the compiled ByteCode of java
+all threads within same process share it
+
+data seg: contains global and static vars
+all threads within same process share the same data segment
+threads can read and modify same data
+sync is required between multiple threads
+
+
+heap: objects created at runtime using new are allocated here
+heap i share among all threads of same process
+threads can read and modify same data
+
+stack: each thread has its own stack
+it manages method calls local variables
+
+register: when JIT compiles converts the bytecode into
+native
+machine code,its uses register to optimize the
+generated machine code.
+
+
+counter: contains address of next insstruction to be executed

@@ -1,0 +1,25 @@
+@Target()-> describes where the annotation can be used
+ElementType.METHOD,ElementType.CONSTRUCTOR,ElementType.ANNOTATION_TYPE //used on annotation
+
+###############################################################################################
+@Retention
+this meta annotation tells how annotation will be stored in
+
+RetentionPolicy.SOURCE: annotation will be discared by the compiler itself
+and it will not be recored by
+.class
+
+RetentionPolicy.CLASS: will  ber recorded in .class nbut  ignored by jvm at runtime
+
+RetentionPolicy.RUNTIME: wil be recorded in .class and available during run time.
+usage of reflection can be done.
+##############################################################################################
+
+
+@Documented
+if annotations need to be shown in documentation use @Documented
+by default annoptaions are ignored in docs
+
+@Inherited
+by default annotations are not inherited to child classes
+use this

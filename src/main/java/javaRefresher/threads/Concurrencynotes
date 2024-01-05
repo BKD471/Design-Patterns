@@ -1,0 +1,24 @@
+Concurrency: when a system can have multiple threads in different
+stages of execution,but not necessarily making the progress at the same time
+
+this is possible for single core
+Core 1: t1 t2 t3 t4
+         t1      t2     t3       t1
+       -------><----><--------><----->
+       t1: 30%
+       t2: 40%
+       t3: 30%
+
+       Context Switching:
+       use scheduler algo 1)Fcfs 2) round robing
+Multiple things are happening in the system but not at the same moment
+One tacher attending multiple students queries.
+
+ Parallelism: Concurrency + Progress at the same time
+
+ this is possible in multi core cpus
+             t1     t2   t4
+ cpu 0 :  <------><---><------>
+            t3    t1   t5   t2
+ cpu 1 :  <----><---><---><------>
+

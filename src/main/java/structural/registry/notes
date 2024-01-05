@@ -1,0 +1,6 @@
+In SOA,
+we maintain a registry where we register all the services
+and consumer on demand ,finds the service from this registry
+This is how services can interact
+
+ex--> Service Registry in Spring Cloud

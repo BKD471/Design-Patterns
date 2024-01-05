@@ -1,0 +1,8 @@
+
+User Controller class should only be responsible for handling
+the incoming request for client and pass the request to separate concerned authorities
+
+
+but it handles the validation of request as well as the storage of request
+If tomorrow there is change of rules in validation or if db got changed
+then this User COntroller must be changed which violates the SRP

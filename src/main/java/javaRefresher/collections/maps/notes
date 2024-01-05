@@ -1,0 +1,91 @@
+Map properties
+
+1) HashMap donot maintains insertion order
+2) stores as key value
+3) LinkedHashMap maintains insertion order
+4) sorts data internally
+5) no duplicate keys
+6) can have null keys
+
+methods:
+          1) size()
+          2) isEmpty()
+          3) containsKey()
+          4) containsValue()
+          5) get(Object o,key)
+          6) put(key,value)
+          7) remove(key) :int
+
+
+
+#############################################################################################
+HashCode() and Equals() Contract
+
+1) if obj1==obj2 then their hash should also be same
+ex--> key=5   put(5,"MadarChod") --->hash(5)=1234567
+              get(5)             --->hash(5)=1234567
+no matter how many times we hash(5) it should be 1234567
+
+2) if two object hash is same then those objects will also be equal if no collision
+if theres a collison, compare the values also
+to get a match both hash and value should match
+
+hashCode() generates hash and equals() compares the objects
+
+***********************************************************************************************
+
+2) DEFAULT_LOAD_FACTOR
+
+if hmap is nearly full, if we add more keys then chances
+are that there will be lots of collisions and the chain will get longer
+thus affecting the tc to serach a key from  amortized O(1) to O(n)
+
+we do rehasing/doubling size
+
+DEFAULT_LOAD_FACTOR=0.75 default system sepcified
+size=16
+
+16*0.75=12   if hmap contains 12 or more keys value pairs then we do double the size
+and re computation of hashing is done
+
+**************************************************************************************************
+
+3) TREEIFY_THRESHOLD=8 default
+
+initially for collisons the nodes are added as a linkedlist
+if there are too many collisons and no of nodes exceeds TREEIFY_THRESHOLD
+then the linkedlist is converted into height balanced binary serach tree
+to optimize the seraching O(lgn)
+
+
+############################# TIME COMPLEXITY ######################################################
+
+insertion  amortized O(1)
+deletion   amortized O(1)
+searchin   amortized O(1)
+
+***************************************************************************************************
+
+HashTable
+
+Synchronized
+cant have null key values
+
+ConcurrentHashMap   thread safe hashmap
+
+
+****************************************************************************************************
+
+No thread safe verson for linkedhashmap
+
+Map<String,String> hash=Collections.synchronizedMap(new LinkedHashMap<>());
+
+*****************************************************************************************************
+
+TreeMap
+
+based on natural sorting order or by order  passed on to by comparator
+is based on Red Black Tree (self balancing binary search tree)
+tc-> O(logn) insert remove get
+
+TreeSet   just like tree map but unique keys

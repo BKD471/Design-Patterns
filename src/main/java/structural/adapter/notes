@@ -1,0 +1,3 @@
+acts like a bridge between two incompatible software
+
+Client --> Adaptor ---> Adaptee

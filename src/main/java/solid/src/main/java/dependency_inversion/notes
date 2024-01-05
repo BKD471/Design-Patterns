@@ -1,0 +1,26 @@
+
+High Level modules should not depend on low level modules
+they should depend on abstractions
+
+abstractions should not depend on implementations
+implementations should depend on abstraction
+
+
+Problem:
+
+Class A       Class A should depend on Class B
+|             Class B should depend on Class C
+|             A knows impl details of B and B knows impl of C
+Class B       if there something changes in Impl of C,it will affect B
+              and A as well
+|
+|
+Class C
+
+
+Another problem comes while writing unit tests,
+if you want to test CLass A, then you have to mock  Class B
+and again CLass C, it creates a chain of dependencies which is hard to manage
+
+
+when it comes to Dependency Inject, we inject dependencies and not create them

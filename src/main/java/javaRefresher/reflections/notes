@@ -1,0 +1,12 @@
+Reflection is Java language's ability to inspect and dynamically call
+classes, methods, attributes etc. at Runtime. It helps in examining or
+modifying the Runtime behavior of a class at Runtime.
+
+
+
+//////////////////////////
+drawbacks
+
+it defeats the purpose of encapsulation
+its slow
+it breaks singleton

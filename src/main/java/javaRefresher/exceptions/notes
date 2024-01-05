@@ -1,0 +1,29 @@
+event that occurs during the execution of program
+and stops the program flow
+It creates the exception object which conrain info about Error lile
+  1)Its type of exception and message
+  2)stack trace
+Runtime system
+find this exception object and find the class which can handle it.
+If there is none then it goes to java default exception handler
+and ends in abnormal termination
+
+
+
+                                 Object
+                                   |
+                 ---------------Throwable---------------------------
+                |                                                   |
+ ------------ Error------                           ------------ Exception---------
+|                        |                          |                              |
+StackOverflow         OutOfMemory               Unchecked/                    Checked Exception
+stack is full         heap is full              Runtime Exception
+
+                                               1) ClassCastException         1) ClassNotFoundException
+                                               2) ArithMetic Exception       2) Interrupted Exception
+                                               3) IndexOutOfBounds           3) IoException
+
+
+
+
+Error--> cant be controlled by devs

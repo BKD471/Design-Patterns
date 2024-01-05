@@ -1,0 +1,11 @@
+---its a class and It has a collection of constants
+   constants are static and final by default
+---It cannot extend any class, as it internally extends java.lang.Enum
+---It can implement interfaces
+---it can have variable,constructor,methods
+---It cannot be initiated(as its constr is private only,even if default is given,
+   in bytecode it make it as private)
+
+---no other class can extend Enum
+---it can have abs method and all constant should implement abstract method
+

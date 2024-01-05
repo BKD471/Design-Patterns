@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="044e1ac3-7f1c-4ad4-a565-e81c2571aaa5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/observer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/observer/observables/IphoneStockObservables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/observer/observables/MackBookAirStockObservables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/observer/observables/StockObservables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/observer/observer/EmailAlertObserverImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/observer/observer/NotificationAlertObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/observer/observer/SmsAlertObserverImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy/Decoy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy/RedHeadDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy/RubberDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy/context/DuckContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy/strategy/IFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy/strategy/IQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy/strategy/impls/CannotFly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy/strategy/impls/FlyWithWings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy/strategy/impls/MuteQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy/strategy/impls/Quack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy2/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy2/context/PrinterContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy2/strategy/PrinterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy2/strategy/impls/DetailedReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy2/strategy/impls/SummaryReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy3/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy3/context/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy3/impls/BulkOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy3/impls/HighPriorityOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy3/impls/SinglePurchaseOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy3/strategy/Cash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy3/strategy/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy3/strategy/DebitCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy3/strategy/GiftVoucher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy3/strategy/ITender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy3/strategy/NetBanking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy3/strategy/Upi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/enums/JetType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/enums/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/factories/FactoryContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/factories/jetFacfory/JetFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/factories/jetFacfory/impl/CommercialJets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/factories/jetFacfory/impl/FighterJets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/factories/jets/Jets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/factories/jets/impl/CommercialJetType1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/factories/jets/impl/CommercialJetType2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/factories/jets/impl/FighterJetType1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/factories/jets/impl/FighterJetType2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/dto/UserDtoBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/dto/impl/UserWebDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/dto/impl/UserWebDtoBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder1/Lamborghini.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder1/parts/Dimensions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder1/parts/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder1/parts/EngineDimensions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder1/parts/FuelType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder1/parts/TransmissionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder2/builder/BirthDateBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder2/builder/FirstNameBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder2/builder/LastNameBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder2/builder/PhoneNumberBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder2/builder/impl/PersonBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder2/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/enums/SeatType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/enums/TransmissionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/lambofactory/LamboCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/lambofactory/impl/AventadorCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/lambofactory/impl/GallardoCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/lambofactory/impl/HurracaneCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/lambofactory/impl/RevueltoCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/lambofactory/impl/UrusCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/lambos/Lamborghini.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/lambos/impls/Aventador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/lambos/impls/Gallardo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/lambos/impls/Hurracane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/lambos/impls/Revuelto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factorymethod/lambos/impls/Urus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/GarageDeepCloning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype/GarageShallowCloning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype1/bad_approach/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype1/bad_approach/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype1/good_approach/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype1/good_approach/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/prototype1/good_approach/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/simplefactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/simplefactory/F35LightningB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/simplefactory/RangeRover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/simplefactory/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/simplefactory/engines/CarEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/simplefactory/engines/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/simplefactory/engines/JetEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/simplefactory/enums/EngineType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/simplefactory/enums/FuelType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/simplefactory/enums/SeatType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/simplefactory/enums/TransmissionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/simplefactory/enums/WingType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/simplefactory/simplefactory/VehicleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/eagerInit/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/eagerInit/EagerInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/eagerInit/EagerInitBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/lazyinit/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/lazyinit/LazyInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/threadSafeInit/CLient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singleton/threadSafeInit/ThreadSafeSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/annotations/defiined/javabased/deprecated/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/annotations/defiined/javabased/deprecated/NewClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/annotations/defiined/javabased/deprecated/OldClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/annotations/defiined/javabased/deprecated/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/annotations/defiined/javabased/safeVararg/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/annotations/defiined/javabased/safeVararg/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/annotations/defiined/meta/inheritedann/ChildClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/annotations/defiined/meta/inheritedann/MyCustomAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/annotations/defiined/meta/inheritedann/ParentClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/annotations/defiined/meta/inheritedann/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/annotations/defiined/meta/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/annotations/defiined/meta/repeatable/Categories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/annotations/defiined/meta/repeatable/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/annotations/defiined/meta/repeatable/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/annotations/defiined/meta/repeatable/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/annotations/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/collections/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/collections/collection/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/collections/collection/Cars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/collections/collection/ComparableComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/collections/collection/FuelType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/collections/collection/Heaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/collections/collection/LinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/collections/collection/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/collections/hierarchy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/collections/iterbales/IterablesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/collections/iterbales/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/collections/maps/HashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/collections/maps/ThreadSafeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/collections/maps/linked hashmap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/collections/maps/normal hashmap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/collections/maps/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/enums/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/enums/EnumSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/enums/EnumSample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/enums/EnumSample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/enums/EnumSample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/enums/MyInterFace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/enums/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/exceptions/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/exceptions/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/exceptions/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/ColorPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/Coordinates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/TInderProfileMatchSystem/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/TInderProfileMatchSystem/MyHashMapMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/boundedGenerics/multibound/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/boundedGenerics/multibound/NotSuitableCLass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/boundedGenerics/multibound/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/boundedGenerics/multibound/ootbclasses/AbstractWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/boundedGenerics/multibound/ootbclasses/IPdfService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/boundedGenerics/multibound/ootbclasses/IimageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/boundedGenerics/multibound/ootbclasses/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/boundedGenerics/upperbounded/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/boundedGenerics/upperbounded/IntegerPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/wildcards/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/wildcards/Ferrari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/wildcards/PrintList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/wildcards/PrintVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/wildcards/TataNano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/genericsPractise/wildcards/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/interfces/Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/interfces/OuterInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/interfces/defaultmethods/Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/interfces/defaultmethods/Type1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/interfces/defaultmethods/Type2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/interfces/defaultmethods/Type3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/interfces/fi/IMyFi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/interfces/fi/MyFiImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/interfces/fi/predefined/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/interfces/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/interfces/privatedefaultandstatic/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/interfces/staticmethods/StaticMethodsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/interfces/staticmethods/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/nestedclasses/Aic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/nestedclasses/LocalInnerCLass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/nestedclasses/NonStaticNestedClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/nestedclasses/StaticNestedClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/nestedclasses/inheritance/ChildClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/nestedclasses/inheritance/ChildClassNonStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/nestedclasses/inheritance/NonStaticOuterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/nestedclasses/inheritance/OuterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/nestedclasses/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/pojo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/reflections/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/reflections/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/reflections/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/reflections/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/singletons/EagerIniti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/singletons/LazyInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/singletons/ThreadSafeSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/streamsss/StremDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/streamsss/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/threads/Concurrencynotes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/threads/JoinThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/threads/MergeSort/MergeSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/threads/MergeSort/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/threads/MonitorLockExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/threads/MonitorLockMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/threads/binarytree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/threads/binarytree/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/threads/binarytree/TreeSizeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/threads/executors/Create100Threads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/threads/life cycle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/threads/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/threads/producer_consumer/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/threads/producer_consumer/SharedResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/threads/producer_consumer/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/threads/resource sharing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/threads/threading1/ThreadCreationExtendingThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaRefresher/threads/threading1/ThreadCreationRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/Sys Architecture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/Sys Requirements.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/gate/EntranceGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/gate/ExitGate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/helpers/CoordinateHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/ParkingSpotFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingmanager/ParkingSpotManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingmanager/impls/FourWheelManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingmanager/impls/HandiCapped.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingmanager/impls/HeavyDutyVehicleManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingmanager/impls/TwoWheelManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingspot/DistanceFromEntrance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingspot/ParkingSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingspot/impl/FourWheelSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingspot/impl/HeavyDutyVehcileSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingspot/impl/SpeciallyAbledVehicleSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingspot/impl/TwoWheelSpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingspottypestrategy/IParkingSpotTypeStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingspottypestrategy/impls/FourWheelSpotImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingspottypestrategy/impls/HandiCappedVehicleSpotImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingspottypestrategy/impls/HeavyDutyVehicleSpotImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingspottypestrategy/impls/TwoWheelSpotImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingstrategy/IParkingStartegy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingstrategy/impls/Default.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingstrategy/impls/NearToEntrance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/parking/parkingstrategy/impls/NeartToElevator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/paymentstrategy/ITender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/paymentstrategy/impls/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/paymentstrategy/impls/DebitCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/paymentstrategy/impls/GiftVoucher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/paymentstrategy/impls/NetBanking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/paymentstrategy/impls/Upi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/pricing/CostFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/pricing/pricing/CostCompute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/pricing/pricing/impls/FourWheelPricing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/pricing/pricing/impls/HeavyDutyVehiclePricing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/pricing/pricing/impls/SpeciallyAbledPricing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/pricing/pricing/impls/TwoWheelPricing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/pricing/pricingstrategy/IPricingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/pricing/pricingstrategy/impls/HourBased.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/pricing/pricingstrategy/impls/MinuteBased.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/tickets/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/vehicles/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/parking_lot/vehicles/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/dependency_inversion/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/dependency_inversion/notes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/interfaceSegregation/good_approach/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/interfaceSegregation/good_approach/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/interfaceSegregation/good_approach/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/interfaceSegregation/good_approach/service/OrderPersistenceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/interfaceSegregation/good_approach/service/PersistenceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/interfaceSegregation/good_approach/service/UserPersistenceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/interfaceSegregation/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/liskov_substitution_principle/bad_approach/BeveragesItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/liskov_substitution_principle/bad_approach/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/liskov_substitution_principle/bad_approach/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/liskov_substitution_principle/good_approach/BeveragesItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/liskov_substitution_principle/good_approach/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/liskov_substitution_principle/good_approach/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/liskov_substitution_principle/note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/ocp/bad_approach/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/ocp/bad_approach/DisplayType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/ocp/bad_approach/Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/ocp/bad_approach/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/ocp/good_approach/DesignNotes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/ocp/good_approach/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/ocp/good_approach/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/ocp/good_approach/displays/DisplayType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/ocp/good_approach/displays/MobileDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/ocp/good_approach/displays/PcDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/ocp/good_approach/displays/TabletDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/ocp/good_approach/displays/TvDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/ocp/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/srp/bad_approach/Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/srp/bad_approach/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/srp/bad_approach/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/srp/bad_approach/dao/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/srp/bad_approach/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/srp/good_approach/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/srp/good_approach/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/srp/good_approach/dao/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/srp/good_approach/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/srp/good_approach/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/src/main/java/srp/good_approach/validation/UserValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/liskov_substitution_principle/bad_approach/BeveragesItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/liskov_substitution_principle/bad_approach/MenuItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/liskov_substitution_principle/bad_approach/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/liskov_substitution_principle/good_approach/BeveragesItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/liskov_substitution_principle/good_approach/MenuItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/liskov_substitution_principle/good_approach/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/ocp/bad_approach/Display$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/ocp/bad_approach/Display.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/ocp/bad_approach/DisplayType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/ocp/bad_approach/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/ocp/good_approach/Display.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/ocp/good_approach/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/ocp/good_approach/displays/DisplayType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/ocp/good_approach/displays/MobileDisplay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/ocp/good_approach/displays/PcDisplay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/ocp/good_approach/displays/TabletDisplay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/ocp/good_approach/displays/TvDisplay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/srp/bad_approach/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/srp/bad_approach/controllers/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/srp/bad_approach/dao/UserRepo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/srp/bad_approach/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/srp/good_approach/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/srp/good_approach/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/srp/good_approach/dao/UserRepo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/srp/good_approach/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/solid/target/classes/srp/good_approach/validation/UserValidation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/IWeightMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/IWeightMachineAdaptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/WeightMachineAdaptorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/WeightMachineImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/adapter/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/bad_approach/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/bad_approach/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/bad_approach/LivingThings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/bad_approach/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/good_approach/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/good_approach/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/good_approach/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/good_approach/bridgeContext/LivingThingsContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/good_approach/bridgeImpl/AnerobicImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/good_approach/bridgeImpl/BreatheImplementor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/good_approach/bridgeImpl/LandBreatheImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/good_approach/bridgeImpl/TreeBreatheImplemetation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/good_approach/bridgeImpl/WaterBreatheImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/Sys Architecture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/base/BasePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/base/impls/FarmHousePizzaImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/base/impls/FreshPanPizzaImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/base/impls/GourmetImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/base/impls/HandTossedPizzaImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/base/impls/MargharitaImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/base/impls/NapoletanaImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/base/impls/VegDelightImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/toppings/ToppingsDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/toppings/impls/BabyCornToppingsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/toppings/impls/BellPeppersImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/toppings/impls/BlackOlivesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/toppings/impls/CaramelizedOnionsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/toppings/impls/ExtraCheeseToppingsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/toppings/impls/JalapenoToppingsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/decorator/toppings/impls/RoastedMushroomToppingsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/registry/Registry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/registry/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/registry/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/registry/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/observer/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/observer/observables/IphoneStockObservables.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/observer/observables/MackBookAirStockObservables.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/observer/observables/StockObservables.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/observer/observer/EmailAlertObserverImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/observer/observer/NotificationAlertObserver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/observer/observer/SmsAlertObserverImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy/Decoy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy/MallardDuck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy/RedHeadDuck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy/RubberDuck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy/context/DuckContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy/strategy/IFly.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy/strategy/IQuack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy/strategy/impls/CannotFly.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy/strategy/impls/FlyWithWings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy/strategy/impls/MuteQuack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy/strategy/impls/Quack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy2/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy2/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy2/context/PrinterContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy2/strategy/PrinterService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy2/strategy/impls/DetailedReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy2/strategy/impls/SummaryReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy3/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy3/context/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy3/impls/BulkOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy3/impls/HighPriorityOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy3/impls/SinglePurchaseOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy3/strategy/Cash.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy3/strategy/CreditCard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy3/strategy/DebitCard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy3/strategy/GiftVoucher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy3/strategy/ITender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy3/strategy/NetBanking.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/behavioural/strategy3/strategy/Upi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/abstractFactory/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/abstractFactory/enums/JetType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/abstractFactory/enums/Type.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/abstractFactory/factories/FactoryContext$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/abstractFactory/factories/FactoryContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/abstractFactory/factories/jetFacfory/JetFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/abstractFactory/factories/jetFacfory/impl/CommercialJets$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/abstractFactory/factories/jetFacfory/impl/CommercialJets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/abstractFactory/factories/jetFacfory/impl/FighterJets$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/abstractFactory/factories/jetFacfory/impl/FighterJets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/abstractFactory/factories/jets/Jets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/abstractFactory/factories/jets/impl/CommercialJetType1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/abstractFactory/factories/jets/impl/CommercialJetType2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/abstractFactory/factories/jets/impl/FighterJetType1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/abstractFactory/factories/jets/impl/FighterJetType2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder/dto/UserDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder/dto/UserDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder/dto/impl/UserWebDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder/dto/impl/UserWebDtoBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder/entity/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder1/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder1/Lamborghini$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder1/Lamborghini.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder1/parts/Dimensions$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder1/parts/Dimensions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder1/parts/Engine$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder1/parts/Engine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder1/parts/EngineDimensions$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder1/parts/EngineDimensions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder1/parts/FuelType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder1/parts/TransmissionType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder2/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder2/builder/BirthDateBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder2/builder/FirstNameBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder2/builder/LastNameBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder2/builder/PhoneNumberBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder2/builder/impl/PersonBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/builder2/entity/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/factorymethod/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/factorymethod/enums/SeatType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/factorymethod/enums/TransmissionType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/factorymethod/lambofactory/LamboCreator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/factorymethod/lambofactory/impl/AventadorCreator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/factorymethod/lambofactory/impl/GallardoCreator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/factorymethod/lambofactory/impl/HurracaneCreator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/factorymethod/lambofactory/impl/RevueltoCreator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/factorymethod/lambofactory/impl/UrusCreator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/factorymethod/lambos/Lamborghini.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/factorymethod/lambos/impls/Aventador.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/factorymethod/lambos/impls/Gallardo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/factorymethod/lambos/impls/Hurracane.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/factorymethod/lambos/impls/Revuelto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/factorymethod/lambos/impls/Urus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/prototype/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/prototype/GarageDeepCloning.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/prototype/GarageShallowCloning.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/prototype1/bad_approach/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/prototype1/bad_approach/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/prototype1/good_approach/Prototype.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/prototype1/good_approach/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/prototype1/good_approach/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/simplefactory/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/simplefactory/F35LightningB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/simplefactory/RangeRover.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/simplefactory/Vehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/simplefactory/engines/CarEngine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/simplefactory/engines/Engine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/simplefactory/engines/JetEngine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/simplefactory/enums/EngineType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/simplefactory/enums/FuelType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/simplefactory/enums/SeatType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/simplefactory/enums/TransmissionType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/simplefactory/enums/WingType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/simplefactory/simplefactory/VehicleFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/singleton/eagerInit/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/singleton/eagerInit/EagerInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/singleton/eagerInit/EagerInitBlock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/singleton/lazyinit/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/singleton/lazyinit/LazyInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/singleton/threadSafeInit/CLient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/singleton/threadSafeInit/CLient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/creational/singleton/threadSafeInit/ThreadSafeSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/interfaceSegregation/good_approach/entity/Entity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/interfaceSegregation/good_approach/entity/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/interfaceSegregation/good_approach/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/interfaceSegregation/good_approach/service/OrderPersistenceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/interfaceSegregation/good_approach/service/PersistenceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/interfaceSegregation/good_approach/service/UserPersistenceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/annotations/defiined/javabased/deprecated/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/annotations/defiined/javabased/deprecated/NewClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/annotations/defiined/javabased/deprecated/OldClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/annotations/defiined/javabased/safeVararg/Log.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/annotations/defiined/meta/inheritedann/ChildClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/annotations/defiined/meta/inheritedann/MyCustomAnnotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/annotations/defiined/meta/inheritedann/ParentClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/annotations/defiined/meta/inheritedann/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/annotations/defiined/meta/repeatable/Categories.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/annotations/defiined/meta/repeatable/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/annotations/defiined/meta/repeatable/Eagle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/annotations/defiined/meta/repeatable/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/collections/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/collections/collection/ArrayListDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/collections/collection/Cars.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/collections/collection/ComparableComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/collections/collection/FuelType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/collections/collection/Heaps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/collections/collection/LinkedListDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/collections/iterbales/IterablesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/collections/maps/HashMapDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/collections/maps/ThreadSafeSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/enums/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/enums/EnumSample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/enums/EnumSample1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/enums/EnumSample1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/enums/EnumSample2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/enums/EnumSample2$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/enums/EnumSample2$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/enums/EnumSample2$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/enums/EnumSample2$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/enums/EnumSample2$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/enums/EnumSample2$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/enums/EnumSample2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/enums/EnumSample3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/enums/MyInterFace.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/exceptions/MyExceptionA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/exceptions/MyExceptionB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/exceptions/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/exceptions/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/ColorPrint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/Coordinates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/Pair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/Print.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/TInderProfileMatchSystem/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/TInderProfileMatchSystem/MyHashMapMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/TInderProfileMatchSystem/Pair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/boundedGenerics/multibound/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/boundedGenerics/multibound/NotSuitableCLass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/boundedGenerics/multibound/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/boundedGenerics/multibound/ootbclasses/AbstractWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/boundedGenerics/multibound/ootbclasses/IPdfService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/boundedGenerics/multibound/ootbclasses/IimageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/boundedGenerics/multibound/ootbclasses/Print.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/boundedGenerics/upperbounded/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/boundedGenerics/upperbounded/IntegerPrinter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/wildcards/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/wildcards/Ferrari.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/wildcards/PrintList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/wildcards/PrintVehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/wildcards/TataNano.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/genericsPractise/wildcards/Vehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/Impl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/Impl1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/Impl2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/InterfaceWIthinClass$inner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/InterfaceWIthinClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/OuterInterface$InnerInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/OuterInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/defaultmethods/A1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/defaultmethods/A2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/defaultmethods/A3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/defaultmethods/A4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/defaultmethods/Type1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/defaultmethods/Type2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/defaultmethods/Type3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/defaultmethods/m5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/defaultmethods/m6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/fi/IMyFi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/fi/IMyFi2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/fi/ImplWay1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/fi/MyFiImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/fi/MyFiImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/privatedefaultandstatic/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/privatedefaultandstatic/i12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/staticmethods/StaticMethodsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/staticmethods/i1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/interfces/staticmethods/i2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/Aic$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/Aic$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/Aic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/LocalInnerCLass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/NonStaticNestedClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/OuterClass$1LocalInnerClasses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/OuterClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/OuterClassType1$NestedClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/OuterClassType1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/OuterClassType2$NestedClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/OuterClassType2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/OuterClassType3$NestedClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/OuterClassType3$NestedClassType1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/OuterClassType3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/OuterClassType4$NestedClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/OuterClassType4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/SomeLogic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/StaticNestedClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/inheritance/ChildClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/inheritance/ChildClassNonStatic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/inheritance/NonStaticOuterClass$NestedClasses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/inheritance/NonStaticOuterClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/inheritance/OuterClass$NestedClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/nestedclasses/inheritance/OuterClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/reflections/Bird.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/reflections/Eagle$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/reflections/Eagle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/reflections/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/singletons/BillPough$BillPoughHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/singletons/BillPough.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/singletons/DoubleCheckLocking.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/singletons/EagerIniti.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/singletons/LazyInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/singletons/ThreadSafeSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/streamsss/StremDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/threads/JoinThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/threads/MergeSort/MergeSorter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/threads/MergeSort/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/threads/MonitorLockExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/threads/MonitorLockMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/threads/binarytree/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/threads/binarytree/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/threads/binarytree/TreeSizeCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/threads/executors/Create100Threads.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/threads/producer_consumer/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/threads/producer_consumer/SharedResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/threads/threading1/Thread1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/threads/threading1/ThreadCreationExtendingThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/javaRefresher/threads/threading1/ThreadCreationRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/liskov_substitution_principle/bad_approach/BeveragesItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/liskov_substitution_principle/bad_approach/MenuItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/liskov_substitution_principle/bad_approach/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/liskov_substitution_principle/good_approach/BeveragesItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/liskov_substitution_principle/good_approach/MenuItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/liskov_substitution_principle/good_approach/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ocp/bad_approach/Display$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ocp/bad_approach/Display.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ocp/bad_approach/DisplayType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ocp/bad_approach/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ocp/good_approach/Display.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ocp/good_approach/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ocp/good_approach/displays/DisplayType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ocp/good_approach/displays/MobileDisplay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ocp/good_approach/displays/PcDisplay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ocp/good_approach/displays/TabletDisplay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ocp/good_approach/displays/TvDisplay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/gate/EntranceGate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/gate/ExitGate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/helpers/CoordinateHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/ParkingSpotFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingmanager/ParkingSpotManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingmanager/impls/FourWheelManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingmanager/impls/HandiCapped.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingmanager/impls/HeavyDutyVehicleManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingmanager/impls/TwoWheelManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingspot/DistanceFromEntrance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingspot/ParkingSpot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingspot/impl/FourWheelSpot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingspot/impl/HeavyDutyVehcileSpot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingspot/impl/SpeciallyAbledVehicleSpot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingspot/impl/TwoWheelSpot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingspottypestrategy/IParkingSpotTypeStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingspottypestrategy/impls/FourWheelSpotImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingspottypestrategy/impls/HandiCappedVehicleSpotImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingspottypestrategy/impls/HeavyDutyVehicleSpotImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingspottypestrategy/impls/TwoWheelSpotImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingstrategy/IParkingStartegy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingstrategy/impls/Default.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingstrategy/impls/NearToEntrance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/parking/parkingstrategy/impls/NeartToElevator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/paymentstrategy/ITender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/paymentstrategy/impls/CreditCard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/paymentstrategy/impls/DebitCard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/paymentstrategy/impls/GiftVoucher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/paymentstrategy/impls/NetBanking.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/paymentstrategy/impls/Upi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/pricing/CostFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/pricing/pricing/CostCompute.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/pricing/pricing/impls/FourWheelPricing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/pricing/pricing/impls/HeavyDutyVehiclePricing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/pricing/pricing/impls/SpeciallyAbledPricing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/pricing/pricing/impls/TwoWheelPricing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/pricing/pricingstrategy/IPricingStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/pricing/pricingstrategy/impls/HourBased.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/pricing/pricingstrategy/impls/MinuteBased.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/tickets/Ticket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/vehicles/Vehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/parking_lot/vehicles/VehicleType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/srp/bad_approach/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/srp/bad_approach/controllers/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/srp/bad_approach/dao/UserRepo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/srp/bad_approach/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/srp/good_approach/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/srp/good_approach/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/srp/good_approach/dao/UserRepo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/srp/good_approach/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/srp/good_approach/validation/UserValidation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/adapter/IWeightMachine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/adapter/IWeightMachineAdaptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/adapter/WeightMachineAdaptorImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/adapter/WeightMachineImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/bridge/bad_approach/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/bridge/bad_approach/Fish.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/bridge/bad_approach/LivingThings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/bridge/bad_approach/Tree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/bridge/good_approach/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/bridge/good_approach/Fish.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/bridge/good_approach/LivingThings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/bridge/good_approach/Tree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/bridge/good_approach/bridgeContext/AnerobicImplementation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/bridge/good_approach/bridgeContext/BreatheImplementor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/bridge/good_approach/bridgeContext/LandBreatheImplementation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/bridge/good_approach/bridgeContext/TreeBreatheImplemetation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/bridge/good_approach/bridgeContext/WaterBreatheImplementation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/decorator/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/decorator/base/BasePizza.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/decorator/base/impls/FarmHousePizzaImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/decorator/base/impls/FreshPanPizzaImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/decorator/base/impls/GourmetImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/decorator/base/impls/HandTossedPizzaImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/decorator/base/impls/MargharitaImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/decorator/base/impls/NapoletanaImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/decorator/base/impls/VegDelightImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/decorator/toppings/ToppingsDecorator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/decorator/toppings/impls/BabyCornToppingsImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/decorator/toppings/impls/BellPeppersImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/decorator/toppings/impls/BlackOlivesImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/decorator/toppings/impls/CaramelizedOnionsImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/decorator/toppings/impls/ExtraCheeseToppingsImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/decorator/toppings/impls/JalapenoToppingsImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/decorator/toppings/impls/RoastedMushroomToppingsImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/registry/Registry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/registry/Runner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/structural/registry/Service.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2aRljujSbEPBumNe3a3k3RPpEuS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Runner.executor": "Run",
+    "Application.org.example.structural.registry.Runner.executor": "Run",
+    "Application.srp.good_approach.Runner.executor": "Run",
+    "OverrideImplement.generate.javadoc": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bhask\OneDrive\Desktop\Design-Patterns\src\main\java\javaRefresher\threads" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.srp.good_approach.Runner">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.prototype1.good_approach.Runner" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational.prototype1.good_approach.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="srp.good_approach.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="srp.good_approach.Runner" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="srp.good_approach.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="structural.registry.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.registry.Runner" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.registry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.srp.good_approach.Runner" />
+        <item itemvalue="Application.org.example.structural.registry.Runner" />
+        <item itemvalue="Application.Runner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="044e1ac3-7f1c-4ad4-a565-e81c2571aaa5" name="Changes" comment="" />
+      <created>1704289412677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704289412677</updated>
+      <workItem from="1704289416372" duration="847000" />
+      <workItem from="1704292081246" duration="6457000" />
+      <workItem from="1704304520284" duration="77000" />
+      <workItem from="1704438792388" duration="4134000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

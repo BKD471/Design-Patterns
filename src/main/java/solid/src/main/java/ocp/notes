@@ -1,0 +1,4 @@
+Open   --> A base class is open for extension
+           we can extend the base class
+Closed  --> we should not modify the existing base class
+            coz the code has been tested and we may introduce bugs to the code

@@ -1,0 +1,9 @@
+class should be public
+
+
+can contain member outside of private
+public default constructor
+
+No annotations like @Table @Entity @Id
+No classes should be extended or implement any interface
+no business logic

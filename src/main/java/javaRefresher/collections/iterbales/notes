@@ -1,0 +1,12 @@
+Iterable: used to traverse collections
+
+methods:
+        a)iterator(): It returns iterator object which provides below methods
+                      to iterate collection
+
+                      1) hasNext(): =true if thgere ekemsst left
+                      2) next():     next element in iteration
+                      3) remove(): removes the last element returned by iterator
+
+        b) forEach() :accepts consumer FI,iterate collection using lambda expression.
+                      lambda expression is called for each element of colections

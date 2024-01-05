@@ -1,0 +1,12 @@
+@Deprecated
+
+usage of @deprectaed gives compile time warnings
+no furhtur improvement is happening on this and use a newer one instead
+target: constr,field,method,local var,pckg,param,Type(class,interface,enum)
+
+
+@SuppreseWarning
+
+it will tell compiler to ignore any compile time warning
+this is dangerous,could lead to runtime exception if any valid warning is ignored
+target:field,constr,method,param,local var,Type(inteface,class,enum)

@@ -1,0 +1,18 @@
+
+nested classes
+
+
+Use: if a class is only to be used with a specific class,make it inner
+
+classes are by default private/default
+but inner class can be private and static
+
+1) STATIC nested class
+
+2) non static nested class/inner class
+
+                             a) Local Inner class
+
+                             b) Member Inner class
+
+                             c) Annonymous Inner class

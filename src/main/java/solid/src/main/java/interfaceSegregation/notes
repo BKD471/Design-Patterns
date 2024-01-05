@@ -1,0 +1,5 @@
+Interface pollution:
+
+dont make your interfaces too large such that
+any class implementing it is forced to implement dummy implementation of some methods
+that its never meant for it to use

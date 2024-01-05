@@ -1,0 +1,11 @@
+COnsumer
+accepts a parameter and return no result
+
+Predicate
+accepts a paramtere and checks for the codition return true or false
+
+Supplier
+accepts no input but produces a result
+
+function
+accepts and returns
